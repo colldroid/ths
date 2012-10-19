@@ -8,3 +8,4 @@ class Settings(object):
     def __init__(self):
         self.resolution = (640, 480)
         self.clock = 60
+        self.gfxPath = 'lib/gfx/'

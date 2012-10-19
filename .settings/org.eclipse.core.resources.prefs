@@ -1,6 +1,9 @@
 eclipse.preferences.version=1
 encoding//src/lib/events.py=utf-8
 encoding//src/lib/main.py=utf-8
+encoding//src/lib/player.py=utf-8
+encoding//src/lib/scenes.py=utf-8
 encoding//src/lib/scr.py=utf-8
 encoding//src/lib/settings.py=utf-8
+encoding//src/lib/title.py=utf-8
 encoding//src/ths.py=utf-8

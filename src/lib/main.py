@@ -15,7 +15,9 @@ class Game(object):
         pygame.display.set_caption('Top Hat Surfer')
         self.Settings = settings.Settings()
         self.Events = events.Listener()
-        self.Screen = scr.Screen() 
+        self.Screen = scr.Screen()
+        self.gpath = self.Settings.gfxPath
+        self.titleBack = pygame.image.load(self.gpath + 't_back.png')
     def startGame(self, gobj):
         pygame.display.set_mode(self.Settings.resolution)
         self.Events.listen(gobj)

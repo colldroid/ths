@@ -5,6 +5,11 @@
 # CopyLeFt 2012 Andreas Collsén
 # FILENAME: ths.py
 
+# Please note that this project is mainly
+# to try out GIThub!
+
+print 'Loading...'
+
 import sys
 sys.path.append('lib')
 
@@ -14,3 +19,5 @@ game = main.Game()
 game.startGame(game)
 
 print 'Done!'
+
+sys.exit(0)

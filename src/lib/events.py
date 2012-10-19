@@ -10,11 +10,12 @@ class Listener(object):
     def __init__(self):
         self.Enabled = True
     def listen(self, gobj):
+        print 'event listener started!',
         while self.Enabled:
             for e in pygame.event.get():
                 if e.type == pygame.QUIT:
                     self.Enabled = False
                     pygame.quit()
-            
-            #Update the screen
-            gobj.Screen.update()
+                else:
+                    #Update the screen
+                    gobj.Screen.update()
